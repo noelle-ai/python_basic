@@ -3,6 +3,11 @@ import sys
 import random
 # Manage
 from pygame.locals import *
+pygame.init()
+pygame.mixer.init()
+sound = pygame.mixer.Sound('./bgm/grd.wav')
+clock = pygame.time.Clock()
+sound.play()
 
 # Set window size value
 WINDOW_WIDTH = 800

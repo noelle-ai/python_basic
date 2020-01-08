@@ -1,10 +1,6 @@
 import pygame
 # Manage
-pygame.init()
-pygame.mixer.init()
-sound = pygame.mixer.Sound('./bgm/grd.wav')
-clock = pygame.time.Clock()
-sound.play()
+
 
 background_colour = (255, 255, 255)  # White color
 (width, height) = (300, 200)  # Screen size
